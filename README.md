@@ -25,7 +25,9 @@ O design deste projeto foi criado pelo Gabriel Vieira, conhecido dentro da comun
 Segue as redes sociais para você conhecer mais sobre o trabalho dele.
 
 [Twitter](twitter.com/nexturHe4rt/)
+
 [LinkedIn](http://linkedin.com/in/gabrielnx/)
+
 [Behance](https://www.behance.net/nexturhe4rt)
 
 
