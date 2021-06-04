@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
+ 
+
+:root {
+    --primary-dark-blue: #1C2238;
+    --secondary-dark-blue: #151B30;
+    --primary-red: #E33D4E;
+    --primary-white: #FFFFFF;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    outline:0;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.nav {    
+    background-color: var(--primary-dark-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 24px;
+}
+
+.nav-left{
+    letter-spacing: 8px;
+}
+
+.nav ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.nav ul li {
+    color: var(--primary-white);
+    display: inline;
+}
+
+.nav ul li a{
+    color: var(--primary-white);
+    display: inline-block;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: var(--primary-white);
+}
+
+.text-red {
+    color: var(--primary-red);
+}
+
+.text-white {
+    color: var(--primary-white);
+}
+
+.text-title {
+    text-align: center;
+    margin-top: 60px;
+
+}
+.section-one {
+    background-image: url('./assets/img/banner-principal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    color: var(--primary-white);
+    padding-left: 150px;
+}
+
+.section-one hr {
+    height: 2px;
+    background-color: var(--primary-red);
+    border: none;
+    width: 200px;
+}
+
+.text-content {
+    width: 400px;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--primary-white);
+}
+
+.red-button {
+    background-color: var(--primary-red);
+    height: 50px;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.schedules {
+    background-color: var(--primary-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.schedules hr {
+    height: 2px;
+    background-color: var(--primary-red);
+    border: none;
+    width: 52px;
+}
+
+.schedules-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card { 
+    background-color: var(--secondary-dark-blue);
+    width: 460px;
+    height: 370px;
+    margin: 30px 0px 60px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    margin-top: 48px;
+    width: 128px;
+    height: 128px;
+}
+
+.card-text {
+    color: var(--primary-white);
+    margin-top: 23px;
+}
