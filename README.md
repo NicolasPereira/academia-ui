@@ -14,12 +14,12 @@
 
 
 ## Objetivo
----
+
 Este projeto froi criado com o objetivo de estudar HTML e CSS sem a utilização de frameworks como bootstrap e também para aprender a codificar a partir de um design pronto.
 
 
 ## Design
----
+
 O design deste projeto foi criado pelo Gabriel Vieira, conhecido dentro da comunicade de Desenvolvimento como Nextur.
 
 Segue as redes sociais para você conhecer mais sobre o trabalho dele.
