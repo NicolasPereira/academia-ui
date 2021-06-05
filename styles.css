@@ -6,6 +6,7 @@
 :root {
     --primary-dark-blue: #1C2238;
     --secondary-dark-blue: #151B30;
+    --tertiary-dark-blue:  #11162B;
     --primary-red: #E33D4E;
     --primary-white: #FFFFFF;
 }
@@ -80,6 +81,10 @@ body {
     text-align: center;
     margin-top: 60px;
 
+}
+
+.text-big {
+    font-size: 28px;
 }
 .section-one {
     background-image: url('./assets/img/banner-principal.png');
@@ -254,9 +259,70 @@ body {
     margin-top: 50px;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-dark-blue);
+    padding-top:20px ;
+}
+
+.contact-left {
+    background-color: var(--tertiary-dark-blue);
+    width: 770px;
+}
+
+.contact-form-title{
+    text-align: center;
+    padding-top: 70px;
+    border-bottom: 2px solid var(--primary-red);
+}
+
+.contact-form-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 12px;
+    color: var(--primary-white);
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-group-button {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"], input[type="tel"], input[type="email"]
+{
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid var(--primary-red);
+    color: var(--primary-white);
+    width: 220px;
+}
+
+textarea  {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid var(--primary-red);
+    color: var(--primary-white);
+    width: 100%;
+    resize: none;
 }
