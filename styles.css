@@ -20,6 +20,13 @@ body {
     font-family: 'Fjalla One', sans-serif;
 }
 
+.hr-red{
+    height: 2px;
+    background-color: var(--primary-red);
+    border: none;
+    width: 52px;
+}
+
 .nav {    
     background-color: var(--primary-dark-blue);
     display: flex;
@@ -115,13 +122,6 @@ body {
     align-items:center;
 }
 
-.schedules hr {
-    height: 2px;
-    background-color: var(--primary-red);
-    border: none;
-    width: 52px;
-}
-
 .schedules-card {
     display: flex;
     justify-content: center;
@@ -135,6 +135,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card hr {
+    height: 2px;
+    background-color: var(--primary-red);
+    width: 52px;
 }
 
 .card img {
@@ -174,13 +180,6 @@ body {
     align-items:center;
 }
 
-.about hr {
-    height: 2px;
-    background-color: var(--primary-red);
-    border: none;
-    width: 52px;
-}
-
 .about-content {
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
@@ -205,4 +204,50 @@ body {
 
 .text-italic{
     font-style: italic;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-dark-blue);
+}
+
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-dark-blue);
+}
+
+.price-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-price {
+    width: 370px;
+    height: 215px;
+    background-color: var(--secondary-dark-blue);
+    margin: 30px 0px 30px 10px;    
+}
+
+.card-price-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.card-price-red-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-red);
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
 }
