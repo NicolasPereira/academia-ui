@@ -194,7 +194,6 @@ body {
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 30px 0px;
-    flex-wrap: wrap;
 }
 
 .about-content-left {
@@ -230,7 +229,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .card-price {
@@ -263,8 +261,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-dark-blue);
-    padding-top:20px ;
-    height: 500px;
+    padding: 20px 0px;
 }
 
 .contact-left {
@@ -361,3 +358,30 @@ textarea  {
     padding-bottom: 22px;
 }
 
+footer {
+    background-color: var(--tertiary-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0px;
+}
+
+footer a {
+    color: var(--primary-white);
+    text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+    .contact, .price-content, .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-right {
+        width: 770px;
+        margin: 10px 0px;
+    }
+
+}
